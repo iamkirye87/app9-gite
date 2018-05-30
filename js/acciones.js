@@ -26,14 +26,14 @@ $('#watch').on('click',function(){
 	var watchID=navigator.geolocation.getCurrentPosition(onSuccess. onError, options);
 	function onSurccess(position){
 		
-		alert('Latitude:' +position.coords.latitude +'\n'+
-		'Longitude:' +position.coords.longitude +'\n'+
-		'Altitude:' +position.coords.altitude +'\n'+
-		'Accuarcy:' +position.coords.accuarcy +'\n'+
-		'Altitude Accuarcy:' +position.coords.altitudeAccuarcy +'\n'+
-		'Heading:' +position.coords.heading +'\n'+
-		'Speed:' +position.coords.speed +'\n'+
-		'Timestamp:' +position.coords.timestamp +'\n');
+		alert('latitude:' +position.coords.latitude +'\n'+
+		'longitude:' +position.coords.longitude +'\n'+
+		'altitude:' +position.coords.altitude +'\n'+
+		'accuarcy:' +position.coords.accuarcy +'\n'+
+		'altitude Accuarcy:' +position.coords.altitudeAccuarcy +'\n'+
+		'heading:' +position.coords.heading +'\n'+
+		'speed:' +position.coords.speed +'\n'+
+		'timestamp:' +position.coords.timestamp +'\n');
 	};
 	
 	function onError(error){
