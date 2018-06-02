@@ -42,7 +42,7 @@ preference name="orientation" value="iandscape"/> -->
 <!-- Third part Plugins-->
 
 <!--Colocar icono app-->
-
+<!--hola wenas-->
 <icon src="res/android/mdpi.png"/>
 
 </widget>
