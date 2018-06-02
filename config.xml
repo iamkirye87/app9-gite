@@ -11,8 +11,8 @@ version="1.0.0">
 	Muestra la ubicacion del dispositivo de acuerdo al GPS
 </description>
 
-<author href="https://buil.phonegap.com" email="wars722@gmail.com">
-Juan Antonio Lopez Spezzia
+<author href="https://build.phonegap.com" email="wars722@gmail.com">
+lopez spezzia juan antonio
 </author>
 
 <!--Perzonalizar la aplicación y plataforma -->
@@ -42,7 +42,7 @@ preference name="orientation" value="iandscape"/> -->
 <!-- Third part Plugins-->
 
 <!--Colocar icono app-->
-<!--hola wenas-->
+
 <icon src="res/android/mdpi.png"/>
 
 </widget>
